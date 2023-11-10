@@ -1,0 +1,141 @@
+#proyectos_generales{
+    display: flex;
+    padding: 2rem;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#proyectos_generales h2{
+    width: 100%;
+    text-align: center;
+    margin: 2rem 0 1rem 0;
+    color: #36c6ea;
+	text-shadow: 2px 2px 5px rgba(199, 193, 193, 0.8);
+}
+
+.box_unProyecto{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    /*border-bottom: 2px solid #41FAEC;*/
+    border-radius: 2rem;
+    box-shadow: inset 0 0 15px #7ccbe1, 0 0 10px #7ccbe1;
+    margin-bottom: 1rem;
+}
+
+.box_texto{
+    width: 60%;
+    padding: .7rem;
+	/*line-height: 1.5rem;*/
+	text-align: justify;
+}
+
+.box_texto h4{
+
+    color: #36c6ea;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, .8);
+}
+
+.box_texto p{
+    color: #ede6e6;
+    font-size: 16px;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, .8);
+
+}
+
+.box_boton{
+    width: 100%;
+    margin: .2rem 0 .2rem 0;
+    display: flex;
+    justify-content: center;
+}
+
+.box_boton a{
+    text-decoration: none;
+    border: none;
+}
+
+.box_boton button{
+    margin: .5rem 0 1rem 0;
+    width: 200px;
+    height: 40px;
+    border-radius: 2rem;
+    box-shadow: inset 0 0 15px #FACE41, 0 0 10px #FACE41;
+    background: linear-gradient(45grad, #885EF0, rgb(49, 144, 227));
+    border: none;
+    color: antiquewhite;
+}
+
+.box_boton button:hover{
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    transform:scale(1.1);
+	cursor: pointer;
+    box-shadow: inset 0 0 15px #41FAEC, 0 0 10px #41FAEC;
+}
+
+.demo{
+    width: 30%;
+    margin: 0 5% 0 5%;
+    
+    height: auto;
+	border-radius: 2rem;
+
+}
+
+
+.carrousel{
+    width: 40%;
+    margin: 0 5% 1rem 5%;
+	box-shadow: 5px 10px 18px black;
+    border-radius: 2rem;
+}
+
+.conteCarrousel{
+    width: 100%;
+    height: 260px;
+    overflow: hidden;
+    border-radius: 2rem;
+}
+
+.itemCarrousel{
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta{
+    width: 100%;
+    height: 100%;
+}
+
+.itemCarrouselTarjeta img{
+    width: 100%;
+}
+
+.itemCarrouselArrows{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px; 
+}
+
+.itemCarrouselArrows > i:hover {
+    cursor: pointer;
+}
+
+#itemCarrousel-1, #itemCarrousel-2, #itemCarrousel-3{
+    background-color: black;
+}
+
+.itemCarrouselArrows > a > i{
+    color: rgb(244, 235, 235);
+}

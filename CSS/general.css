@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size: 100vw 100vh;
+    font-family: 'Noto Serif', serif;
+}
+
+#video {
+    height:100%;
+    left: 0;
+    object-fit: cover;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+/* TODO || Barra superior de navegación*/
+.header{
+    width: 100%;
+    height: 100px;
+    /*position: fixed;    Hace que la barra quede fija*/ 
+    top: 0;left: 0;
+}
+.container{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+}
+.container .btn-menu, .logo{
+    float: left;
+    line-height:100px;
+}
+.container .btn-menu label{
+    color: #fff;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.container .menu{
+    float: right;
+    line-height: 100px;
+}
+.container .menu a{
+    display: inline-block;
+    padding: 15px;
+    line-height: normal;
+    text-decoration: none;
+    color: #fff;
+    transition: all 0.3s ease;
+    border-bottom: 2px solid transparent;
+    font-size: 15px;
+    margin-right: 5px;
+}
+.container .menu a:hover{
+    border-bottom: 2px solid #c7c7c7;
+    padding-bottom: 5px;
+}
+
+/* TODO || Barra lateral de navegación*/
+#btn-menu{
+    display: none;
+}
+.container-menu{
+    position: absolute;
+    background: rgba(0,0,0,0.5);
+    width: 100%;
+    height: 100vh;
+    top: 0;left: 0;
+    transition: all 500ms ease;
+    opacity: 0;
+    visibility: hidden;
+}
+#btn-menu:checked ~ .container-menu{
+    opacity: 1;
+    visibility: visible;
+}
+.cont-menu{
+    width: 100%;
+    max-width: 250px;
+    background: linear-gradient(45grad, #885EF0, rgb(16, 85, 145));
+
+    height: 100vh;
+    position: relative;
+    transition: all 500ms ease;
+    transform: translateX(-100%);
+}
+#btn-menu:checked ~ .container-menu .cont-menu{
+    transform: translateX(0%);
+}
+.cont-menu nav{
+    transform: translateY(15%);
+}
+.cont-menu nav a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #c7c7c7;
+    border-left: 5px solid transparent;
+    transition: all 400ms ease;
+}
+.cont-menu nav a:hover{
+    border-left: 5px solid #1fbfdb;
+    background: #1f1f1f;
+    box-shadow: inset 0 0 5px rgb(186, 73, 227), 0 0 10px rgb(186, 73, 227);
+}
+.cont-menu label{
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+/*TODO || Rodapie || */
+.rodapie{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    background: rgb(122, 204, 255);  
+    opacity: .5;
+    padding: 1rem 0 1rem 0;
+}
+
+.box-pacman{
+    width: 40%;
+}
+
+.box-rodapie-text{
+    width: 60%;
+    padding-bottom: 1rem;
+    text-align: end;
+}
+
+.rodapie-img{
+    width: 20%;
+}
+
+.rodapie-texto{
+    font-weight: 600;
+    line-height: 1.3rem;
+    margin-right: .5rem;
+}
+
+.box-rodapie-text a{
+    background-color: #de3ff1;
+    border-radius: 5px;
+    color: white;
+    margin: .5rem ;
+    padding: .5rem;
+    text-decoration: none;
+    width: 3.5rem;
+}
+
+.box-rodapie-text a:hover{
+    box-shadow: inset 0 0 10px #d9a30d, 0 0 10px #d9a30d;
+    background-color: #ffffff;
+    color: #1f1f1f;
+    transform: scale(1.2);
+}

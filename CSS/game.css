@@ -1,0 +1,124 @@
+.box-player{
+    /*border: red solid;*/
+    display: flex;
+    justify-content: center;
+    padding-left: 2rem;
+}
+
+.title{
+    align-self: center;
+}
+
+.title h3{
+    font-size: 28px;
+    color: #36c6ea;
+    margin-top: 2rem;
+	text-shadow: 2px 2px 5px rgba(199, 193, 193, 0.8);
+}
+
+.player1, .player2{
+    height: 128px;
+}
+
+.player1{
+    background: url(../Multimedia/Fotos/Magic_sphere.png);
+    width: calc(2048px / 16);
+    animation: animatePlayer1 1s steps(16) infinite;
+}
+
+.player2{
+    background: url(../Multimedia/Fotos/Flame_jet.png);
+    width: calc(1792px / 14);
+    animation: animatePlayer2 1s steps(14) infinite;
+}
+
+.player3{
+    background: url(../Multimedia/Fotos/Charge_1.png);
+    width: calc(576px / 9);
+    animation: animatePlayer3 1s steps(9) infinite;
+}
+
+@keyframes animatePlayer1{
+    from{
+        background-position: 0;
+    }
+    to{
+        background-position: -2048px;
+    }
+}
+
+@keyframes animatePlayer2{
+    from{
+        background-position: 0;
+    }
+    to{
+        background-position: -1792px;
+    }
+}
+
+@keyframes animatePlayer3{
+    from{
+        background-position: 0;
+    }
+    to{
+        background-position: -576px;
+    }
+}
+
+.box-pacman{
+    width: 5%;
+    display: flex;
+    margin: 3rem 0 0 3rem;
+}
+
+.pacman::before,
+.pacman::after{
+    content:" ";
+    position: absolute;
+    background: yellow;
+    width: 100px;
+    height: 50px;
+    margin: -50px 0 0 -50px;
+    border-radius: 50px 50px 0 0;
+    animation: up .4s infinite;
+}
+
+.pacman::after{
+    margin-top: -1px;
+    border-radius: 0 0 50px 50px;
+    animation: down .4s infinite;
+}
+
+.dot{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    margin: -5px 0 0 30px;
+    border-radius: 50%;
+    background: yellow;
+    box-shadow: 40px 0 0 #fff, 80px 0 0 #fff, 120px 0 0 rgb(0, 34, 255);
+    animation: right_to_left .4s infinite;
+}
+
+@keyframes up {
+    0%, 100%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(-40deg);
+    }
+}
+
+@keyframes down {
+    0%, 100%{
+        transform: rotate(0);
+    }
+    50%{
+        transform: rotate(40deg);
+    }
+}
+@keyframes right_to_left {
+    100%{
+        margin-left: -10px;
+    }
+}

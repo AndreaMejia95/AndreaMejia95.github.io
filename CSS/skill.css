@@ -1,0 +1,87 @@
+#skill{
+    display: flex;
+    padding-bottom: 2rem;
+    border-radius: 0 0 2rem 2rem;
+    border-bottom: #c941fa solid;
+}
+
+
+/* TODO -> Soft Skills <- */
+.box-skill1{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 2rem;
+    justify-content: center;
+}
+
+.titulo-skill{
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    width: 100%;
+    margin-top: 1rem;
+    color: #36c6ea;
+	text-shadow: 2px 2px 5px rgba(199, 193, 193, 0.8);
+}
+
+.hard_box{
+    background-color: #b2b2b7;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    margin: .5rem;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.hard_box:hover{
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    box-shadow: inset 0 0 15px #41D9FA, 0 0 10px #41D9FA;
+    transform: scale(1.1);
+}
+
+.hard_img{
+    width: 100%;
+}
+
+.hard_box_titulo{
+    font-size: .7rem;
+    text-align: center;
+    padding: .3rem;
+}
+
+/* todo -> Hard skills y hobbies <- */
+.box-skill2{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: center;
+}
+
+
+@media (max-width:768px){ 
+    .tecnologia_titulo{
+        font-size: 1rem;
+    }
+    .hard{
+        display: flex;
+        justify-content: space-around;
+        padding: .5rem;
+    }
+    .tecnologia{
+        display: flex;
+        height: 4.5rem;
+    }
+    .hard_box{
+        height: 2.8rem;
+        margin: .2rem;
+        width: 2.5rem;
+    }
+    .hard_box_titulo{
+        font-size: .7rem;
+    }
+    .hard_img{
+        width: 90%;
+    }
+}

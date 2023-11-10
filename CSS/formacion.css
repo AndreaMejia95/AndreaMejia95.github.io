@@ -1,0 +1,93 @@
+.formacion{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 0 0 2rem 2rem;
+    border-bottom: #c941fa solid;
+    padding-bottom: 2rem;
+}
+
+.formacion-box{
+    background-color:#DBDBDE;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    margin: .5rem 1rem .5rem 1rem;
+    width: 12%;
+    box-shadow: inset 0 0 15px rgb(186, 73, 227), 0 0 10px rgb(186, 73, 227);
+}
+
+.formacion-box:hover{
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    background: linear-gradient(45grad, #885EF0, rgb(49, 144, 227));
+    transform: scale(1.1);
+}
+
+.contenedor figure{
+    position:relative;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 6px;
+    margin: .7rem;
+}
+.contenedor figure img{
+    width: 100%;
+    height: auto;
+    transition: all 400ms ease-out;
+    will-change: transform;
+    align-items: center;
+}
+.contenedor figure .capa{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, .6);
+    background: linear-gradient(45grad, #885EF0, rgb(49, 144, 227));
+    transition: all 400ms ease-out;
+    opacity: 0;
+    visibility: hidden;
+    text-align: center;
+
+}
+.contenedor figure:hover > .capa {
+    opacity: 1;
+    visibility: visible;
+}
+
+.contenedor figure:hover > img{
+    transform: scale(1.1);
+}
+
+.contenedor figure .capa p{
+    color: black;
+    font-size: 12px;;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+
+@media (max-width:768px){ 
+    .formacion{
+        flex-wrap: wrap;
+        justify-content: space-around;
+        height: 30rem;
+        padding: 1rem;
+    }
+    .formacion-box{
+        height: 9rem;
+        justify-items: center;
+        text-align: center;
+        width: 9rem;
+    }
+    .formacion-box, .formacion-img, .formacion-descripcion{
+        margin: 0;
+    }
+    .formacion-img{
+        padding: 0;
+        width: 60%;
+    }
+    .formacion-descripcion{
+        font-size: 0.9rem;
+        padding: .2rem;
+    }
+}
