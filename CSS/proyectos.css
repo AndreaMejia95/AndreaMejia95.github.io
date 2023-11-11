@@ -28,12 +28,9 @@
 .box_texto{
     width: 60%;
     padding: .7rem;
-	/*line-height: 1.5rem;*/
-	text-align: justify;
 }
 
 .box_texto h4{
-
     color: #36c6ea;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, .8);
 }
@@ -42,7 +39,7 @@
     color: #ede6e6;
     font-size: 16px;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, .8);
-
+    text-align: left;
 }
 
 .box_boton{
