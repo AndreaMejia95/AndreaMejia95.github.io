@@ -28,6 +28,8 @@
 
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
         <link rel="icon" href="Multimedia/Fotos/favicon.ico"/>
 
         <link rel="stylesheet" href="CSS/general.css">
@@ -39,6 +41,7 @@
         <link rel="stylesheet" href="CSS/proyectos.css">
         <link rel="stylesheet" href="CSS/carrusel.css">
         <link rel="stylesheet" href="CSS/boton-top.css">
+        <link rel="stylesheet" href="CSS/modelado.css">
         <link rel="stylesheet" href="CSS/reaparece-seccion.css">
 
     </head>
@@ -52,6 +55,7 @@
                 <nav class="menu">
                     <a href="index.html">Inicio</a>
                     <a href="#academica">Formación</a>
+                    <a href="#experiencia">Experiencia</a>
                     <a href="#proyectos">Proyectos</a>
                     <a href="#contacto">Contactame</a>
                 </nav>
@@ -201,7 +205,19 @@
             <div class="formacion-box img-card">
                 <div class="contenedor">
                     <figure>
-                        <img src="Multimedia/Fotos/Open.png" alt="Logo UTP"></img>                     
+                        <img src="Multimedia/Fotos/LogoUnad.png" alt="Logo UNAD"></img>                     
+                        <div class="capa">
+                            <p>Ingenieria multimedia</p>
+                            <p><u>En Curso</u></p>
+                        </div>
+                    </figure>
+                </div>
+            </div>
+
+            <div class="formacion-box img-card">
+                <div class="contenedor">
+                    <figure>
+                        <img src="Multimedia/Fotos/LogoGoogle.png" alt="Logo Google"></img>                     
                         <div class="capa">
                             <p>UX - UI</p>
                             <p><u>En Curso</u></p>
@@ -213,19 +229,7 @@
             <div class="formacion-box img-card">
                 <div class="contenedor">
                     <figure>
-                        <img src="Multimedia/Fotos/Edutin.png" alt="Logo UTP"></img>                     
-                        <div class="capa">
-                            <p>Diplomado en Adobe Pothoshop</p>
-                            <p><u>En Curso</u></p>
-                        </div>
-                    </figure>
-                </div>
-            </div>
-
-            <div class="formacion-box img-card">
-                <div class="contenedor">
-                    <figure>
-                        <img src="Multimedia/Fotos/Edutin.png" alt="Logo UTP"></img>                     
+                        <img src="Multimedia/Fotos/Edutin.png" alt="Logo Edutin"></img>                     
                         <div class="capa">
                             <p>Dibujo digital con Adobe Ilustrator</p>
                             <p><u>En Curso</u></p>
@@ -237,7 +241,7 @@
             <div class="formacion-box img-card">
                 <div class="contenedor">
                     <figure>
-                        <img src="Multimedia/Fotos/Edutin.png" alt="Logo UTP"></img>                     
+                        <img src="Multimedia/Fotos/Edutin.png" alt="Logo Edutin"></img>                     
                         <div class="capa">
                             <p>Inglés</p>
                             <p><u>En Curso</u></p>
@@ -260,7 +264,7 @@
         </section>
 
         <!-- TODO: || Experiencia laboral  || -->
-        <div class="box-player" id="proyectos">
+        <div class="box-player" id="experiencia">
             <div class="player1"></div>
             <div class="title">
                 <h3><em>Experiencia laboral</em></h3>
@@ -322,33 +326,27 @@
                     que el proyecto requería, y el motor gráfico de Unity en donde se integraban 
                     los .fbx creados.</p>
             </div>
-            
-            <div id="slider" class="carousel slide" data-ride="carousel">
-                <ol class="carousel-indicators">
-                    <li data-target="#slider" data-slide-to="0" class="active"></li>
-                    <li data-target="#slider" data-slide-to="1"></li>
-                    <li data-target="#slider" data-slide-to="2"></li>
-                </ol>
-                <div class="carousel-inner1">
-                    <div class="carousel-item active">
-                        <img class="d-block   img__slider" src="Multimedia/Fotos/Workobot1.png" alt="First slide">
-                    </div>
-                    <div class="carousel-item">
-                        <img class="d-block   img__slider" src="Multimedia/Fotos/Workobot2.png" alt="Second slide">
-                    </div>
-    
-                    <div class="carousel-item">
-                        <img class="d-block  img__slider" src="Multimedia/Fotos/Workobot3.png" alt="...">
-                    </div>
+
+            <div id="carouselExample" class="carousel slide slider2">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="Multimedia/Fotos/Workobot1.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Multimedia/Fotos/Workobot2.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="Multimedia/Fotos/Workobot3.png" class="d-block w-100" alt="...">
+                  </div>
                 </div>
-                <a class="carousel-control-prev" href="#slider" role="button" data-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#slider" role="button" data-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="sr-only">Next</span>
-                </a>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
             </div>
             
         </section>
@@ -397,8 +395,7 @@
                     <p>Este juego está siendo desarrollado en su versión beta donde me encuentro ejerciendo el rol de Game designer y UI designer además de Game Programmer, está con el lenguaje de programación C# y el motor de videojuegos de Unity haciendo uso de la metodología SCRUM. El objetivo del juego es sumergir a los jugadores en una historia de la mitología griega donde se debe rescatar a la hermana del jugador quien por medio de su voz posee el don de controlar cualquier raza estando presentes en el juego los Sátiros, Gigantes y Minotauros.</p>
                 </div>
 
-                <video class="demo" src="Multimedia/Videos/Game Rescue At Sea.mp4" controls muted>
-                </video>
+                <iframe class="demo" src="https://www.youtube.com/embed/YWStg3fGWyw?si=VpEQT5W73kHjEjW2" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
                 <div class="box_boton">
                     <a href="https://andreamejia.itch.io/mystical-world" target="_blank">
@@ -509,11 +506,36 @@
                     <p>Este juego está siendo desarrollado en su versión beta donde me encuentro ejerciendo el rol de Game designer y UI designer además de Game Programmer, está con el lenguaje de programación C# y el motor de videojuegos de Unity haciendo uso de la metodología SCRUM. El objetivo del juego es sumergir a los jugadores en una historia de la mitología griega donde se debe rescatar a la hermana del jugador quien por medio de su voz posee el don de controlar cualquier raza estando presentes en el juego los Sátiros, Gigantes y Minotauros.</p>
                 </div>
 
-                <video class="demo" src="Multimedia/Videos/Game Rescue At Sea.mp4" controls muted>
+                <video class="demo" src="Multimedia/Videos/Osito360.mp4" controls muted>
                 </video>
 
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="Multimedia/Fotos/Render1.png" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="Multimedia/Fotos/Render2.png" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="Multimedia/Fotos/Render3.png" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="Multimedia/Fotos/Render4.png" alt="...">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+
                 <div class="box_boton">
-                    <a href="https://andreamejia.itch.io/mystical-world" target="_blank">
+                    <a href="https://www.artstation.com/artwork/VJGeoP" target="_blank">
                         <button class="botones" onclick="sonido.play()">Visitar página</button>
                     </a>
                 </div>
@@ -525,10 +547,6 @@
         </div>
 
         <!--TODO: ---------||SECCIÓN RODAPIE||-------------->
-        <button class="btn-scrolltop" id="btn_scrolltop"  onclick="sonido.play()">
-            <i class="fa-solid fa-circle-arrow-up"></i>
-        </button>
-
        <!-- <audio controls autoplay>
             <source src="Multimedia/SoundNight.mp3">
         </audio> -->
@@ -555,6 +573,9 @@
                 
             </div>
         </div>
+        <button class="btn-scrolltop" id="btn_scrolltop"  onclick="sonido.play()">
+            <i class="fa-solid fa-circle-arrow-up"></i>
+        </button>
 
         <script src="JS/animaciones.js"></script>
         <script src="JS/seccion.js"></script>
@@ -567,5 +588,6 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
         <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     </body>
 </html>
