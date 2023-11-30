@@ -17,9 +17,7 @@
     display: flex;
     width: 100%;
     flex-wrap: wrap;
-
     justify-content: space-around;
-    /*border-bottom: 2px solid #41FAEC;*/
     border-radius: 2rem;
     box-shadow: inset 0 0 15px #7ccbe1, 0 0 10px #7ccbe1;
     margin-bottom: 1rem;
@@ -28,18 +26,23 @@
 .box_texto{
     width: 60%;
     padding: .7rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .box_texto h4{
     color: #36c6ea;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, .8);
+    text-align: center;
+    margin-top: 2%;
 }
 
 .box_texto p{
     color: #ede6e6;
     font-size: 16px;
 	text-shadow: 2px 2px 5px rgba(0, 0, 0, .8);
-    text-align: left;
+    text-align: justify;
 }
 
 .box_boton{
@@ -71,17 +74,11 @@
 	cursor: pointer;
     box-shadow: inset 0 0 15px #41FAEC, 0 0 10px #41FAEC;
 }
-
 .demo{
-    width: 30%;
-    margin: 0 5% 0 5%;
-    
-    height: auto;
+    width: 40%;
+    padding: 2%;
 	border-radius: 2rem;
-
 }
-
-
 .carrousel{
     width: 40%;
     margin: 0 5% 1rem 5%;

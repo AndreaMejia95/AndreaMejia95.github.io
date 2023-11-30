@@ -65,29 +65,3 @@
     font-weight: 600;
     padding-top: 1rem;
 }
-
-@media (max-width:768px){ 
-    .formacion{
-        flex-wrap: wrap;
-        justify-content: space-around;
-        height: 30rem;
-        padding: 1rem;
-    }
-    .formacion-box{
-        height: 9rem;
-        justify-items: center;
-        text-align: center;
-        width: 9rem;
-    }
-    .formacion-box, .formacion-img, .formacion-descripcion{
-        margin: 0;
-    }
-    .formacion-img{
-        padding: 0;
-        width: 60%;
-    }
-    .formacion-descripcion{
-        font-size: 0.9rem;
-        padding: .2rem;
-    }
-}

@@ -58,30 +58,3 @@
     padding: 1rem;
     justify-content: center;
 }
-
-
-@media (max-width:768px){ 
-    .tecnologia_titulo{
-        font-size: 1rem;
-    }
-    .hard{
-        display: flex;
-        justify-content: space-around;
-        padding: .5rem;
-    }
-    .tecnologia{
-        display: flex;
-        height: 4.5rem;
-    }
-    .hard_box{
-        height: 2.8rem;
-        margin: .2rem;
-        width: 2.5rem;
-    }
-    .hard_box_titulo{
-        font-size: .7rem;
-    }
-    .hard_img{
-        width: 90%;
-    }
-}

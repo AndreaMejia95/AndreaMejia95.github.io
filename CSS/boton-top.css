@@ -15,12 +15,6 @@
 }
 
 .fa-circle-arrow-up:before{
-    color: #6729A5;
+    color: #d5dfe0;
     font-size: 3rem;
-}
-
-@media (max-width:768px){
-    .fa-circle-arrow-up:before{
-        font-size: 2rem;
-    }
 }

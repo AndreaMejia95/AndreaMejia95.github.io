@@ -1,12 +1,11 @@
 #carouselExampleIndicators{
-    width: 70%;
+    width: 60%;
     border-radius: 2rem;
 }
 
 .carousel-inner {
     position: relative;
     overflow: hidden;
-    height: 300px;
     border-radius: 2rem;
 }
 

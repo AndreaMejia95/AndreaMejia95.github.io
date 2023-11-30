@@ -1,0 +1,9 @@
+#Slidermodelos{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-bottom: 1%;
+}
+.sliderModelos_box{
+    height: auto;
+}

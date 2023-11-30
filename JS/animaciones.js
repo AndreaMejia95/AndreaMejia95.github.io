@@ -17,4 +17,4 @@ window.onscroll = ()=>{
 
 //SONIDOS CLICK
 let sonido = new Audio();
-sonido.src = "./multimedia/sonidos/botones.mp3";
+sonido.src = "./multimedia/mario-bros tuberia.mp3";
