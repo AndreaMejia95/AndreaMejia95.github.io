@@ -1,3 +1,85 @@
+/* Tamaño monitor (1280-1024) */
+@media all and (min-width: 1440px) and (max-width: 2560px) {
+    .colaboradores-box2 {
+        width: 60%;
+    }
+    .colaboradores-box2 h3 {
+        font-size: 40px;
+    }
+    .colaboradores-box2 h5 {
+        font-size: 35px;
+    }
+    .colaboradores-box2 p {
+        font-size: 18px;
+    }
+    #proyectos_generales {
+        justify-content: space-evenly;
+    }
+    #proyectos_generales h2 {
+        font-size: 35px;
+    }
+    .title h3 {
+        font-size: 35px;
+    }
+    .titulo-skill {
+        font-size: 28px;
+    }
+    .hero {
+        align-items: center;
+    }
+    .hero__figure {
+        width: 30%;
+    }
+    .box_experiencia {
+        width: 55%;
+        margin-right: 20px;
+    }
+    #slider {
+        width: 45%;
+    }
+    .box_experiencia p {
+        font-size: 20px;
+    }
+    .box_unProyecto {
+        width: 45%;
+        margin-top: 15px;
+    }
+    .box_boton button {
+        height: 60px;
+        font-size: 19px;
+    }
+    #carouselExampleIndicators {
+        width: 45%;
+        margin-top: 25px;
+    }
+    .box_texto {
+        width: 100%;
+        align-items: center;
+    }
+    .box_texto h4 {
+        font-size: 30px;
+    }
+    .box_texto p {
+        font-size: 19px;
+        width: 80%;
+    }
+    .demo {
+        width: 48%;
+        padding: 0;
+        margin-bottom: 30px;
+    }
+    .rodapie-texto {
+        font-size: 18px;
+    }
+    .fa.fa-linkedin {
+        margin-top: 20px;
+    }
+    #Slidermodelos {
+        width: 48%;
+        height: auto;
+    }
+}
+
 /* Tamaño por defecto pantallas (1280-1024) */
 @media all and (min-width: 1024px) and (max-width: 1440px) {
 

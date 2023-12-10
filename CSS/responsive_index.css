@@ -1,4 +1,4 @@
-/* Tamaño por defecto pantallas (1280-1024) */
+/* Tamaño monitor (1280-1024) */
 @media all and (min-width: 1440px) and (max-width: 2560px) {
     .colaboradores-box2 {
         width: 40%;
