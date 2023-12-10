@@ -1,4 +1,30 @@
 /* Tamaño por defecto pantallas (1280-1024) */
+@media all and (min-width: 1440px) and (max-width: 2560px) {
+    .colaboradores-box2 {
+        width: 40%;
+    }
+    .colaboradores-box2 h3{
+        font-size: 45px;
+    }
+    .colaboradores-box2 p{
+        margin-top: 2%;
+        font-size: 18px;
+    }
+    .colaboradores-box3{
+        justify-content: center;
+    }
+    .colaboradores-box3 a{
+        margin: 3% 5% 0 5%;
+    }
+    .colaboradores-box3 a button{
+        width: 150px;
+        height: 150px;
+    }
+}
+
+
+
+/* Tamaño por defecto pantallas (1280-1024) */
 @media all and (min-width: 1024px) and (max-width: 1440px) {
     .colaboradores-box2 {
         width: 50%;
