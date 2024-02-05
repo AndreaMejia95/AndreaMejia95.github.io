@@ -79,10 +79,17 @@
     padding: 2%;
 	border-radius: 2rem;
 }
-.carrousel{
+.Video_Youtube {
+    width: 50%;
+    height: 280px;
+    padding: 2%;
+    border-radius: 2rem;
+}
+
+.carrousel {
     width: 40%;
     margin: 0 5% 1rem 5%;
-	box-shadow: 5px 10px 18px black;
+    box-shadow: 5px 10px 18px black;
     border-radius: 2rem;
 }
 
