@@ -88,7 +88,7 @@ h1{
 
 /*     ||  RESPONSIVE  ||    */
 
-@media all and (min-width: 975px) and (max-width: 1920px) {
+@media all and (min-width: 975px) and (max-width: 1440px) {
     .cv, .fa.fa-linkedin, .fa.fa-github, .fa-itch-io:before {
         font-size: 20px;
     }

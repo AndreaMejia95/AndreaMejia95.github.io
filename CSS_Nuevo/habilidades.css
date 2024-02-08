@@ -24,7 +24,7 @@
 
 /*     ||  RESPONSIVE  ||    */
 
-@media all and (min-width: 975px) and (max-width: 1920px) {
+@media all and (min-width: 975px) and (max-width: 1440px) {
     ._habilidades_Hard_Soft_lista {
         font-size: 14px;
         padding: 0;

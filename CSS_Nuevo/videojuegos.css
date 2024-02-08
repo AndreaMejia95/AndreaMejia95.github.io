@@ -99,7 +99,7 @@ h3{
 /*     ||  RESPONSIVE  ||    */
 
 /* Tamaño portátil (1280-1024) */
-@media all and (min-width: 975px) and (max-width: 1920px) {
+@media all and (min-width: 975px) and (max-width: 1440px) {
     h3 {
         font-size: 20px;
     }

@@ -40,7 +40,7 @@
 
 /*  ||  RESPONSIVE   ||   */
 
-@media all and (min-width: 975px) and (max-width: 1920px) {
+@media all and (min-width: 975px) and (max-width: 1440px) {
     #_rodapie p {
         font-size: 15px;
         margin-left: 0;

@@ -61,7 +61,7 @@
 
 /*     ||  RESPONSIVE  ||    */
 
-@media all and (min-width: 975px) and (max-width: 1920px) {
+@media all and (min-width: 975px) and (max-width: 1440px) {
     .contenedor figure .capa p{
         font-size: 12px;
     }
