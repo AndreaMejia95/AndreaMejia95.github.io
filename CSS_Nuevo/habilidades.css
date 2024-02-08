@@ -1,0 +1,23 @@
+#_habilidades{
+    margin: 50px 0 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+._habilidades_Hard_Soft{
+    width: 40%;
+    border-radius: 30px;
+    border: solid #58008D 2px;
+    background-color: #25002E;
+    margin: 0 2% 0 2%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+._habilidades_Hard_Soft_lista{
+    width: 40%;
+    color: white;
+    font-size: 18px;
+}

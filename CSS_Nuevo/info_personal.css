@@ -1,0 +1,87 @@
+#_info{
+    display: flex;
+    padding: 2%;
+}
+
+/*REDES*/
+._info__redes{
+    width: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+._info__redes a{
+    text-decoration: none;
+}
+
+._info__redes a i, ._info__redes a span{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.cv, .fa.fa-linkedin, .fa.fa-github, .fa-itch-io:before {
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+}
+
+.cv:hover, ._info__redes a i:hover{
+    border: solid;
+    border-image: linear-gradient(to right, #00E0FF, #BB5AF6) 1;
+}
+
+/*DESCRIPCION PERSONAL*/
+._info__descripcion{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+h1{
+    background-image: linear-gradient(90deg, #00E0FF, #BB5AF6, #00E0FF, #BB5AF6);
+    background-clip: text;
+    -webkit-text-stroke-color: transparent;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 2% 0 0 5%;
+}
+
+._info__texto{
+    font-size: 22px;
+    color: white;
+    text-align: justify;
+    padding: 3%;
+    margin: 4% 12% 0 5%;
+    background-color: #25002E;
+    border: solid #58008D 2px;
+    border-radius: 30px;
+}
+
+/*FOTO Y NOMBRE*/
+._info__foto{
+    width: 35%;
+    display:  flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 5%;
+}
+
+._info__foto_perfil{
+    width: 75%;
+}
+
+._info__nombre{
+    font-size: 45px;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+}

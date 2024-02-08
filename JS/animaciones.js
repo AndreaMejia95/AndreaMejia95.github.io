@@ -8,7 +8,7 @@ btn_scrolltop.addEventListener('click', ()=>{
 });
 
 window.onscroll = ()=>{
-    if(window.scrollY < 300){
+    if(window.scrollY < 200){
         btn_scrolltop.classList.remove("btn-scrolltop-on")
     }else{
         btn_scrolltop.classList.add("btn-scrolltop-on")

@@ -1,0 +1,39 @@
+#_rodapie{
+    margin-top: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+._rodapie__redes{
+    display: flex;
+    margin-left: 20px;
+}
+
+#_rodapie p{
+    width: 100%;
+    margin: 10px 0 5px 30px;
+    color: white;
+    font-size: 22px;
+    text-align: center;
+}
+
+._rodapie__redes a{
+    text-decoration: none;
+}
+
+._rodapie__redes a i, ._rodapie__redes a span{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: black;
+    border-radius: 5px;
+    margin: 10px 10px 20px 10px;
+}
+
+._rodapie__redes a i:hover{
+    border: solid;
+    border-image: linear-gradient(to right, #00E0FF, #BB5AF6) 1;
+}

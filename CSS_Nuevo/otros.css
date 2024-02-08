@@ -1,0 +1,24 @@
+._otros{
+    margin: 40px 0 40px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #25002E;
+}
+
+._otros_lista{
+    color: white;
+    font-size: 18px;
+    align-content: center;
+    margin-bottom: 2%;
+}
+
+._otros_lista li{
+    height: 30%;
+    margin: 1% 0 1% 0;
+}
+
+.launch {
+    color: #BC4ED8;
+    cursor: pointer;
+}

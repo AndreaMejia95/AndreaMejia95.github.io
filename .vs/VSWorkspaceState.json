@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\CSS",
+    "\\New_CSS"
   ],
-  "SelectedNode": "\\game.html",
+  "SelectedNode": "\\New_CSS\\General.css",
   "PreviewInSolutionExplorer": false
 }
