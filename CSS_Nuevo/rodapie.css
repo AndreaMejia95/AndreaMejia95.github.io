@@ -37,3 +37,29 @@
     border: solid;
     border-image: linear-gradient(to right, #00E0FF, #BB5AF6) 1;
 }
+
+/* Tamaño monitor (1280-1024) */
+@media all and (min-width: 1440px) and (max-width: 2560px) {
+
+}
+
+/* Tamaño tablet (768-480) */
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+}
+
+/* Tamaño teléfonos (480-menos ) */
+@media all and (max-width: 480px) {
+    #_rodapie {
+        margin-top: 70px;
+    }
+    #_rodapie p {
+        font-size: 18px;
+        margin-left: 0;
+    }
+
+    ._rodapie__redes a i, ._rodapie__redes a span{
+        width: 30px;
+        height: 30px;
+    }
+}

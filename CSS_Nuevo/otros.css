@@ -22,3 +22,27 @@
     color: #BC4ED8;
     cursor: pointer;
 }
+
+/*     ||  RESPONSIVE  ||    */
+
+/* Tamaño monitor (1280-1024) */
+@media all and (min-width: 1440px) and (max-width: 2560px) {
+
+}
+
+/* Tamaño tablet (768-480) */
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+}
+
+/* Tamaño teléfonos (480-menos ) */
+@media all and (max-width: 480px) {
+    ._otros_lista {
+        margin-bottom: 0;
+        padding-bottom: 30px;
+    }
+    ._otros_lista li {
+        font-size: 15px;
+        height: 35%;
+    }
+}

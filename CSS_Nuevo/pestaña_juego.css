@@ -188,3 +188,92 @@
     border: solid;
     border-image: linear-gradient(to right, #00E0FF, #BB5AF6) 1;
 }
+
+/*     ||  RESPONSIVE  ||    */
+
+/* Tamaño monitor (1280-1024) */
+@media all and (min-width: 1440px) and (max-width: 2560px) {
+
+}
+
+/* Tamaño tablet (768-480) */
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+}
+
+/* Tamaño teléfonos (480-menos ) */
+@media all and (max-width: 480px) {
+    .container .menu {
+        margin-left: 0;
+    }
+
+    #_descripcion {
+        margin-top: 0;
+    }
+
+    h1 {
+        font-size: 35px;
+    }
+
+    #_descripcion p {
+        width: 80%;
+        font-size: 15px;
+    }
+
+    ._gameplay_demo {
+        width: 80%;
+        height: 250px;
+    }
+
+    .box_tags {
+        margin: 4%;
+        width: 90%;
+    }
+
+    .tag {
+        width: 16%;
+        height: 25px;
+        font-size: 12px;
+    }
+    #_galeria {
+        margin-top: 10px;
+    }
+
+    #_desarrollo h2 {
+        font-size: 18px;
+    }
+
+    #_desarrollo P {
+        width: 80%;
+        font-size: 17px;
+    }
+
+    #_desarrollo menu {
+        width: 80%;
+        font-size: 15px;
+        padding-left: 0;
+        text-align: justify;
+    }
+
+    #_desarrollo table {
+        width: 90%;
+        margin-top: 0;
+    }
+    #_desarrollo table tr th {
+        font-size: 17px;
+    }
+
+    #_desarrollo table tr td {
+        font-size: 15px;
+    }
+
+    ._desarrollo__btn {
+        width: 100%;
+        height: 50px;
+        font-size: 15px;
+    }
+
+    .a {
+        width: 32%;
+    }
+}

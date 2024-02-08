@@ -31,3 +31,36 @@
     margin-top: 15px;
     padding: 0 20px;
 }
+
+/*     ||  RESPONSIVE  ||    */
+
+/* Tamaño monitor (1280-1024) */
+@media all and (min-width: 1440px) and (max-width: 2560px) {
+
+}
+
+/* Tamaño tablet (768-480) */
+@media all and (min-width: 480px) and (max-width: 768px) {
+
+}
+
+/* Tamaño teléfonos (480-menos ) */
+@media all and (max-width: 480px) {
+    ._experiencia {
+        margin-top: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    ._experiencia__empleo {
+        width: 70%;
+        height: 600px;
+        margin: 20px 0 20px 0;
+    }
+    #Slider_Experiencia_1, #Slider_Experiencia_2 {
+        height: auto;
+    }
+    ._experiencia__descripcion {
+        font-size: 15px;
+        text-align: justify;    
+    }
+}
