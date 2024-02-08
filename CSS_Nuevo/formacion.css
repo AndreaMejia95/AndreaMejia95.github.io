@@ -79,4 +79,7 @@
     .formacion-box {
         width: 25%;
     }
+    .contenedor figure .capa p{
+        font-size: 14px;;
+    }
 }

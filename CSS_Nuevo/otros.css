@@ -39,7 +39,7 @@
 @media all and (max-width: 480px) {
     ._otros_lista {
         margin-bottom: 0;
-        padding-bottom: 30px;
+        padding-bottom: 20px;
     }
     ._otros_lista li {
         font-size: 15px;
