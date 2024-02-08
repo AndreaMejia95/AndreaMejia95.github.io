@@ -3,22 +3,18 @@
     display: flex;
     justify-content: space-evenly;
     color: #fff;
-    
     padding: 1.5rem 0 1.5rem 0;
 }
 
 .colab-box1{
+    color: #fff;
     position: relative;
     width: 120px;
     height: 120px;
-
     border-radius: 100%;
-
     border: none;
     font-weight: 600;
-	text-shadow: 2px 2px 5px rgba(199, 193, 193, 0.8);
-
-    background: linear-gradient(180deg, rgb(0, 183, 255), rgb(255, 48, 255));
+    background-color: #4B1493;
 }
 
 .colab-box1 a{
@@ -29,7 +25,7 @@
     content: "";
     position:absolute;
     inset: -15px;
-    border: 5px solid #020202;
+    border: 3px solid #f988ff;
     border-top-color: transparent;
     border-bottom-color: transparent;
     border-radius: 100%;
@@ -58,18 +54,16 @@
 }
 
 .box-rodapie-text2 a{
-    background-color: #de3ff1;
+    background-color: black;
     border-radius: 5px;
     color: white;
-    margin: .5rem ;
+    margin: 1% .5% 1% .5%;
     padding: .5rem;
     text-decoration: none;
     width: 3.5rem;
 }
 
 .box-rodapie-text2 a:hover{
-    box-shadow: inset 0 0 10px #d9a30d, 0 0 10px #d9a30d;
-    background-color: #ffffff;
-    color: #1f1f1f;
-    transform: scale(1.2);
+    border: solid;
+    border-image: linear-gradient(to right, #00E0FF, #BB5AF6) 1;
 }

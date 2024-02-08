@@ -37,7 +37,7 @@ header{
 
 /*     ||  RESPONSIVE  ||    */
 
-@media all and (min-width: 975px) and (max-width: 1440px) {
+@media all and (min-width: 975px) and (max-width: 1920px) {
     .container .menu a{
         padding: 10px;
         font-size: 14px;
