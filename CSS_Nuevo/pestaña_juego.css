@@ -191,14 +191,47 @@
 
 /*     ||  RESPONSIVE  ||    */
 
-/* Tamaño monitor (1280-1024) */
-@media all and (min-width: 1440px) and (max-width: 2560px) {
+@media all and (min-width: 975px) and (max-width: 1920px) {
+    h1 {
+        font-size: 35px;
+    }
+    
+    ._gameplay_demo {
+        width: 30%;
+        height: 250px;
+    }
 
-}
+    #_descripcion p {
+        font-size: 15px;
+    }
 
-/* Tamaño tablet (768-480) */
-@media all and (min-width: 480px) and (max-width: 768px) {
-
+    .tag {
+        font-size: 12px;
+    }
+    #_desarrollo h2 {
+        font-size: 20px;
+    }
+    
+    #_desarrollo P {
+        font-size: 18px;
+    }
+    #_desarrollo menu {
+        font-size: 15px;
+    }
+    #_desarrollo table {
+        margin-top: 0;
+        width: 50%;
+    }
+    #_desarrollo table tr th {
+        font-size: 18px;
+    }
+    #_desarrollo table tr td {
+        font-size: 15px;
+    }
+    ._desarrollo__btn {
+        height: 50px;
+        font-size: 15px;
+    }
 }
 
 /* Tamaño teléfonos (480-menos ) */

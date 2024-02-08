@@ -61,14 +61,10 @@
 
 /*     ||  RESPONSIVE  ||    */
 
-/* Tamaño monitor (1280-1024) */
-@media all and (min-width: 1440px) and (max-width: 2560px) {
-
-}
-
-/* Tamaño tablet (768-480) */
-@media all and (min-width: 480px) and (max-width: 768px) {
-
+@media all and (min-width: 975px) and (max-width: 1920px) {
+    .contenedor figure .capa p{
+        font-size: 12px;
+    }
 }
 
 /* Tamaño teléfonos (480-menos ) */
@@ -80,6 +76,6 @@
         width: 25%;
     }
     .contenedor figure .capa p{
-        font-size: 14px;;
+        font-size: 10px;
     }
 }

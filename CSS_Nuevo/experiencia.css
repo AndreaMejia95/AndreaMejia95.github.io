@@ -34,14 +34,19 @@
 
 /*     ||  RESPONSIVE  ||    */
 
-/* Tamaño monitor (1280-1024) */
-@media all and (min-width: 1440px) and (max-width: 2560px) {
-
-}
-
-/* Tamaño tablet (768-480) */
-@media all and (min-width: 480px) and (max-width: 768px) {
-
+@media all and (min-width: 975px) and (max-width: 1920px) {
+    ._experiencia__empleo {
+        width: 35%;
+        height: 450px;
+    }
+    #Slider_Experiencia_1, #Slider_Experiencia_2 {
+        width: 70%;
+        height: 40%;
+    }
+    ._experiencia__descripcion {
+        font-size: 15px;
+        text-align: justify;    
+    }
 }
 
 /* Tamaño teléfonos (480-menos ) */

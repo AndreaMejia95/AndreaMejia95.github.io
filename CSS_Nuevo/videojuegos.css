@@ -98,14 +98,37 @@ h3{
 
 /*     ||  RESPONSIVE  ||    */
 
-/* Tamaño monitor (1280-1024) */
-@media all and (min-width: 1440px) and (max-width: 2560px) {
-
-}
-
-/* Tamaño tablet (768-480) */
-@media all and (min-width: 480px) and (max-width: 768px) {
-
+/* Tamaño portátil (1280-1024) */
+@media all and (min-width: 975px) and (max-width: 1920px) {
+    h3 {
+        font-size: 20px;
+    }
+    ._videojuegos__juegos {
+        width: 25%;
+    }
+    ._videojuegos__titulo {
+        font-size: 18px;
+    }
+    .tag {
+        font-size: 11px;
+        width: 20%;
+        height: 20px;
+    }
+    ._videojuegos__descripcion {
+        font-size: 14px;
+    }
+    ._videojuegos__rol {
+        font-size: 12px;
+    }
+    .a {
+        display: flex;
+        justify-content: center;
+    }
+    ._videojuegos__btn{
+        height: 30px;
+        width: 70%;
+        font-size: 14px;
+    }
 }
 
 /* Tamaño teléfonos (480-menos ) */
@@ -114,12 +137,10 @@ h3{
         font-size: 20px;
         margin-top: 20px;
     }
-
     ._videojuegos{
         flex-direction: column;
         align-items: center;
     }
-
     ._videojuegos__juegos {
         width: 90%;
         font-size: 18px;

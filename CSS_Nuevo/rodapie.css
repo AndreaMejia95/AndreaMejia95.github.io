@@ -38,14 +38,17 @@
     border-image: linear-gradient(to right, #00E0FF, #BB5AF6) 1;
 }
 
-/* Tamaño monitor (1280-1024) */
-@media all and (min-width: 1440px) and (max-width: 2560px) {
+/*  ||  RESPONSIVE   ||   */
 
-}
-
-/* Tamaño tablet (768-480) */
-@media all and (min-width: 480px) and (max-width: 768px) {
-
+@media all and (min-width: 975px) and (max-width: 1920px) {
+    #_rodapie p {
+        font-size: 15px;
+        margin-left: 0;
+    }
+    ._rodapie__redes a i, ._rodapie__redes a span{
+        width: 30px;
+        height: 30px;
+    }
 }
 
 /* Tamaño teléfonos (480-menos ) */
@@ -57,7 +60,6 @@
         font-size: 16px;
         margin-left: 0;
     }
-
     ._rodapie__redes a i, ._rodapie__redes a span{
         width: 30px;
         height: 30px;

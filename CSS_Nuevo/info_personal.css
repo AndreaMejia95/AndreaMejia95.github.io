@@ -88,14 +88,23 @@ h1{
 
 /*     ||  RESPONSIVE  ||    */
 
-/* Tamaño monitor (1280-1024) */
-@media all and (min-width: 1440px) and (max-width: 2560px) {
-
-}
-
-/* Tamaño tablet (768-480) */
-@media all and (min-width: 480px) and (max-width: 768px) {
-
+@media all and (min-width: 975px) and (max-width: 1920px) {
+    .cv, .fa.fa-linkedin, .fa.fa-github, .fa-itch-io:before {
+        font-size: 20px;
+    }
+    ._info__redes a i, ._info__redes a span {
+        width: 40px;
+        height: 40px;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    ._info__texto{
+        font-size: 16px;
+    }
+    ._info__nombre{
+        font-size: 35px;
+    }
 }
 
 /* Tamaño teléfonos (480-menos ) */
@@ -103,17 +112,14 @@ h1{
     .container .menu {
         margin-left: 0;
     }
-
     .container .menu a {
         padding: 5px;
         font-size: 15px;
     }
-
     #_info{
         display: flex;
         flex-direction: column;
     }
-      
     ._info__foto {
         order: -1; /* Coloca este elemento primero */
         width: 100%;
@@ -124,12 +130,10 @@ h1{
     ._info__nombre{
         font-size: 25px;
     }
-
     ._info__redes {
         width: 100%;
         flex-direction:row;
     }
-
     ._info__redes a i, ._info__redes a span {
         width: 40px;
         height: 40px;
@@ -138,7 +142,6 @@ h1{
     .cv, .fa.fa-linkedin, .fa.fa-github, .fa-itch-io:before {
         font-size: 20px;
     }
-
     ._info__descripcion{
         width: 100%;
     }
