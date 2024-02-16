@@ -32,8 +32,11 @@
 
         <link rel="stylesheet" href="CSS/general.css">
         <link rel="stylesheet" href="CSS/fotoPerfil.css">
+        <link rel="stylesheet" href="CSS_Nuevo/info_personal.css">
         <link rel="stylesheet" href="CSS/index.css">
         <link rel="stylesheet" href="CSS/responsive_index.css">
+        <link rel="stylesheet" href="CSS_Nuevo/rodapie.css">
+
     </head>
 
     <body>
@@ -43,9 +46,7 @@
 
         <section id="colab-principal-box">
             <div class="colaboradores-box">                
-               
-                <img src="Multimedia/Fotos/Foto.png" alt="Foto perfil" class="_info__foto_perfil">
-                
+                <img src="Multimedia/Fotos/Foto.png" alt="Foto perfil" class="_info__foto_perfil"> 
             </div>
             <div class="colaboradores-box2">
                 <h3>Bienvenidos al portafolio  de Andrea Mejia</h3>
@@ -65,21 +66,23 @@
             </a>
         </div>
 
-        <div class="box-rodapie-text2" >
-            <p class="rodapie-texto">Desarrollado por Andrea Mejia</p>
-            <p class="rodapie-texto">&copy Copyright - 2024</p>
-            <a href="https://www.linkedin.com/in/andrea-mejia95/" target="_blank" onclick="sonido.play()">
-                <i id="linkedin" class="fa fa-linkedin" aria-hidden="true"></i>
-            </a>
-                
-            <a href="https://github.com/AndreaM-95" target="_blank" onclick="sonido.play()">
-                <i class="fa fa-github" aria-hidden="true"></i>
-            </a>
-            
-            <a href="https://andreamejia.itch.io/"  target="_blank" onclick="sonido.play()">
-                <i class="fa-brands fa-itch-io"></i>
-            </a>
-        </div>
+        <section id="_rodapie">
+            <p>Desarrollado por Andrea Mejia</p>
+            <p>&copy Copyright - 2024</p>
+            <div class="_rodapie__redes">
+                <a href="https://www.linkedin.com/in/andrea-mejia95/" target="_blank" onclick="sonido.play()">
+                    <i class="fa fa-linkedin"></i>
+                </a>
+
+                <a href="https://github.com/AndreaM-95" target="_blank" onclick="sonido.play()">
+                    <i class="fa fa-github"></i>
+                </a>
+
+                <a href="https://andreamejia.itch.io/" target="_blank" onclick="sonido.play()">
+                    <i class="fa-brands fa-itch-io"></i>
+                </a>
+            </div>
+        </section>
     </body>
 
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
@@ -92,5 +95,4 @@
 
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 
-    <script src="/JS/animaciones.js"></script>
 </html>
