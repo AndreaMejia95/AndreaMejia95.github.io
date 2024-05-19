@@ -35,6 +35,17 @@
     height: 400px;
 }
 
+._gameplay_estado{
+    font-size: 18px;
+    color: #BC4ED8;
+    font-weight: 700;
+}
+._gameplay_tipoestado{
+    font-size: 18px;
+    color: white;
+    font-weight: 400;
+}
+
 .box_tags{
     margin: 1%;
     width: 30%;
