@@ -1,21 +1,27 @@
 #_rodapie{
     margin-top: 150px;
+}
+
+#_rodapie_Games{
+    margin-top: 50px;
+}
+
+#_rodapie, #_rodapie_Games{
+    padding-left: 30px;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
 }
-
 ._rodapie__redes{
     display: flex;
-    margin-left: 20px;
 }
 
-#_rodapie p{
+#_rodapie p, #_rodapie_Games p{
     width: 100%;
     margin: 10px 0 5px 30px;
     color: white;
     font-size: 22px;
-    text-align: center;
+    text-align: start;
 }
 
 ._rodapie__redes a{
@@ -30,7 +36,7 @@
     align-items: center;
     background: black;
     border-radius: 5px;
-    margin: 10px 10px 20px 10px;
+    margin: 10px 10px 20px 0;
     color: white;
 }
 
@@ -41,23 +47,39 @@
 
 /*  ||  RESPONSIVE   ||   */
 
+/* Tamaño pantallas grandes (1440-1920) */
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+    #_rodapie p, #_rodapie_Games p {
+        font-size: 15px;
+        margin-left: 0;
+    }
+    ._rodapie__redes a i, ._rodapie__redes a span {
+        width: 35px;
+        height: 35px;
+    }
+    .fa.fa-linkedin, .fa.fa-github, .fa-itch-io:before {
+        font-size: 25px;
+    }
+}
+
+/* Tamaño pantallas medianas (975-1440) */
 @media all and (min-width: 975px) and (max-width: 1440px) {
-    #_rodapie p {
+    #_rodapie p, #_rodapie_Games p {
         font-size: 15px;
         margin-left: 0;
     }
     ._rodapie__redes a i, ._rodapie__redes a span{
-        width: 30px;
-        height: 30px;
+        width: 35px;
+        height: 35px;
     }
 }
 
 /* Tamaño teléfonos (480-menos ) */
 @media all and (max-width: 480px) {
-    #_rodapie {
+    #_rodapie, #_rodapie_Games {
         margin-top: 70px;
     }
-    #_rodapie p {
+    #_rodapie p, #_rodapie_Games p {
         font-size: 12px;
         margin: 0;
     }

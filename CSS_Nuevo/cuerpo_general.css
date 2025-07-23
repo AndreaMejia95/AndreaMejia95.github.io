@@ -36,12 +36,16 @@ header{
 }
 
 /*     ||  RESPONSIVE  ||    */
+/* Tamaño pantallas grandes (1440-1920) */
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+    .menu a{
+        font-size: 30px;
+    }
+}
 
-@media all and (min-width: 975px) and (max-width: 1920px) {
+@media all and (min-width: 975px) and (max-width: 1440px) {
     .container .menu a{
-        padding: 10px;
         font-size: 14px;
-        margin: 0 5px 0 5px;
     }
 }
 

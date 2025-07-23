@@ -87,6 +87,25 @@ h1{
 }
 
 /*     ||  RESPONSIVE  ||    */
+/* Tamaño pantallas grandes (1440-1920) */
+@media screen and (min-width: 1440px) and (max-width: 1920px) {
+    ._info__redes a i, ._info__redes a span {
+        width: 50px;
+        height: 50px;
+    }
+    .cv{
+        font-size: 25px;
+    }
+    ._info__texto{
+        font-size: 18px;
+    }
+    ._info__nombre, h1{
+        font-size: 35px;
+    }
+    ._info__foto_perfil{
+        width: 70%;
+    }
+}
 
 @media all and (min-width: 975px) and (max-width: 1440px) {
     .cv, .fa.fa-linkedin, .fa.fa-github, .fa-itch-io:before {

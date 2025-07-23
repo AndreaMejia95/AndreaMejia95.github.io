@@ -7,8 +7,8 @@
 ._experiencia__empleo{
     background-color: #25002E;
     border: solid #58008D 2px;
-    width: 30%;
-    height: 650px;
+    width: 27%;
+    height: 300px;
     margin: 20px;
     display: flex;
     flex-direction: column;
@@ -16,36 +16,22 @@
     border-radius: 30px;
 }
 
-#Slider_Experiencia_1, #Slider_Experiencia_2{
-    display: flex;
-    justify-content: center;
-    width: 90%;
-    height: 50%;
-    margin: 4% 0 0 1%;
-}
-
 ._experiencia__descripcion{
     color: white;
-    font-size: 18px;
-    text-align: center;
-    margin-top: 15px;
+    font-size: 16px;
     padding: 0 20px;
 }
 
 /*     ||  RESPONSIVE  ||    */
 
 @media all and (min-width: 975px) and (max-width: 1440px) {
-    ._experiencia__empleo {
-        width: 35%;
-        height: 450px;
-    }
+    
     #Slider_Experiencia_1, #Slider_Experiencia_2 {
         width: 70%;
         height: 40%;
     }
     ._experiencia__descripcion {
-        font-size: 15px;
-        text-align: justify;    
+        font-size: 14px;   
     }
 }
 
